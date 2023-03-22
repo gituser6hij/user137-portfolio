@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Set the character encoding to UTF-8 -->
+	<meta charset="utf-8">
+	<!-- Set the title of the webpage -->
+	<title>user137's Portfolio</title>
+	<!-- Add styles for the webpage -->
+	<style>
+		/* Add styles for the body */
+		body {
+			background: #1c1c1c;
+			color: white;
+			font-family: 'Press Start 2P', cursive;
+			text-align: center;
+			height: 100vh;
+			margin: 0;
+			display: inherit;
+		}
+		
+
+		/* Set the font size for paragraphs */
+		p {
+			font-size: 1.3em;
+			font-family: monospace;
+		}
+
+		/* Change paragraph color when hovered over */
+		p:hover {
+			color: rgba(10, 202, 166, 0.9);
+		}
+
+		/* Add styles for h1 */
+		h1 {
+			font-size: 2.5em;
+			color: white;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-shadow: 1px 1px #0acaa6;
+			/* add retro-style text shadow */
+		}
+
+		/* Change h1 color when hovered over */
+		h1:hover {
+			color: rgba(10, 202, 166, 0.9);
+		
+
+		}
+
+		/* Add styles for h2 */
+		h2 {
+			font-size: 2.1em;
+			color: white;
+			text-shadow: 1px 1px #0acaa6;
+			/* add retro-style text shadow */
+		}
+
+		/* Change h2 color when hovered over */
+		h2:hover {
+			color: rgba(10, 202, 166, 0.9);
+
+			transition: all 0.2s ease-in-out;
+
+		}
+
+		h3 {
+			font-size: 1.3em;
+			color: white;
+			text-shadow: 1px 1px #0acaa6;
+			text-align: center;
+			/* add retro-style text shadow */
+		}
+
+		/* Change h3 color when hovered over */
+		h3:hover {
+			transform: scale(1.01);
+			color: #111;
+
+		}
+
+
+		/* Add styles for links */
+		a {
+			font-size: 1.7em;
+			color: white;
+			text-decoration: none;
+			margin: 30px;
+			padding: 15px;
+			border-radius: 15px;
+			border: 6px solid rgba(10, 202, 166, 0.9);
+			transition: all 0.2s ease-in-out;
+			/* add transition effect */
+			display: inline-block;
+			width: 70%;
+			/* change the width value to your preference */
+		}
+
+		/* Change link background color and animation when hovered over */
+		a:hover {
+			background-color: rgba(10, 202, 166, 0.9);
+			/* add animation effect */
+
+		}
+
+		/* Change h2 color inside link when hovered over */
+		a:hover h2 {
+			color: black;
+			/* change the color of h1 inside the link */
+		}
+
+		/* Change paragraph color inside link when hovered over */
+		a:hover p {
+			color: black;
+
+		}
+
+		img:hover {
+			transform: scale(1.15);
+		}
+
+		ul {
+			list-style-type: none;
+		}
+
+		footer img {
+			max-width: 96px;
+			max-height: 96px;
+		}
+
+		footer .link-tree a {
+			display: inline-block;
+			text-decoration: none;
+			margin-right: 15px;
+		}
+
+		footer .link-tree a img {
+			display: inline-block;
+			vertical-align: middle;
+			width: 48px;
+			height: 48px;
+			margin-right: 15px;
+		}
+
+		.portfolio-item-icons img {
+			max-height: 48px;
+		}
+
+		#skills ul {
+			font-family: monospace;
+			text-align: left;
+			font-size: 1.5em;
+			border-radius: 15px;
+			border: 6px solid rgba(10, 202, 166, 0.9);
+			margin: 30px;
+			padding: 15px;
+			display: inline-block;
+		}
+
+		#skills ul li:hover {
+			color: rgba(10, 202, 166, 0.9);
+		}
+
+		section {
+			margin-bottom: 300px;
+		}
+		footer {
+			margin-top: 300px;
+		}
+	</style>
+	<!-- Add Google Fonts for the webpage -->
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<!-- Add the following line within the head section of your HTML -->
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+</head>
+
+<body>
+	<header>
+
+	</header>
+	<main>
+		<!-- The hero section 
+		<section style="margin-top: 30px; margin-bottom: 10px;" id="hero">
+			<h1>Portfolio</h1>
+		</section>  -->
+
+		<!-- The about section -->
+		<section id="about">
+			<div class="about-content">
+				<img src="user137.PNG" alt="user137 Profile Picture" style="border-radius: 15px;
+				border: 6px solid rgba(10, 202, 166, 0.9);margin: 30px;
+				padding: 15px;">
+				<h1>user137's PORTFOLIO</h1>
+				<p style="font-size: 2.5em;">blockchain developer & smart-contract auditor</p>
+
+			</div>
+		</section>
+
+		<!-- The portfolio section -->
+		<section id="portfolio">
+			<h2>LIVE DEMO DAPPS</h2>
+			<ul class="portfolio-items" style="list-style-type: none; display: inline-block;">
+				<!-- Portfolio item 1 -->
+				<li>
+					<a href="http://auditutils.com/">
+						<div class="portfolio-item">
+							<div class="portfolio-item-img">
+								<img src="Blog-auditutils.png" alt="Blog">
+							</div>
+							<div class="portfolio-item-info">
+								<h3>AuditUtils.com</h3>
+								<p>blog about web3 security</p>
+								<div class="portfolio-item-icons">
+									<img src="https://ghost.org/images/logos/logo-black-1.webp" alt="Ghost CMS"
+										style="filter: invert(100%);">
+									<img src="github-mark/node-js.svg" alt="node-js" style="filter: invert(100%);">
+									<img src="github-mark/ubuntu.svg" alt="ubuntu" style="filter: invert(100%);">
+									<img src="github-mark/docker.svg" alt="docker" style="filter: invert(100%);">
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+				<!-- Portfolio item 2 -->
+				<li>
+					<a href="https://crowdfundingapp-one.vercel.app/">
+						<div class="portfolio-item">
+							<div class="portfolio-item-img">
+								<img src="CrowdFunding-dapp-img-s.png" alt="Crowdfunding">
+							</div>
+							<div class="portfolio-item-info">
+								<h3>CrowdFunding</h3>
+								<p>dapp deployed on Goerli test net</p>
+								<div class="portfolio-item-icons">
+									<img src="github-mark/solidity.svg" alt="solidity">
+									<img src="github-mark/typescript.svg" alt="typescript"
+										style="filter: invert(100%);">
+									<img src="github-mark/node-js.svg" alt="node-js" style="filter: invert(100%);">
+									<img src="github-mark/vercel.svg" alt="vercel" style="filter: invert(100%);">
+									<img src="github-mark/vite.svg" alt="vite" style="filter: grayscale(100%);">
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+				<!-- Portfolio item 3 -->
+				<li>
+					<a href="https://nft-explorer-five.vercel.app/">
+						<div class="portfolio-item">
+							<div class="portfolio-item-img">
+								<img src="NFT-Explorer-dapp-img-s.png" alt="NFT explorer">
+							</div>
+							<div class="portfolio-item-info">
+								<h3>NFT explorer</h3>
+								<p>deployed on Ethereum main net</p>
+								<div class="portfolio-item-icons">
+									<img src="https://assets-global.website-files.com/5f973c970bea5548ad4287ef/63dce1d6a617de7ba0a52f0f_nav-logo.svg"
+										alt="Alchemy" style="filter: grayscale(100%) invert(100%);">
+									<img src="github-mark/solidity.svg" alt="solidity">
+									<img src="github-mark/vercel.svg" alt="vercel" style="filter: invert(100%);">
+									<img src="github-mark/node-js.svg" alt="node-js" style="filter: invert(100%);">
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+				<!-- Portfolio item 4 -->
+				<li>
+					<a href="https://autoken-faucet.vercel.app/">
+						<div class="portfolio-item">
+							<div class="portfolio-item-img">
+								<img src="https://autoken-faucet.vercel.app/au-token-150px-t.png" alt="AUtoken Faucet">
+							</div>
+							<div class="portfolio-item-info">
+								<h3>AUtoken Faucet</h3>
+								<p>for use in demonstration dapps on goerli testnet</p>
+								<div class="portfolio-item-icons">
+									<img src="https://imgs.search.brave.com/jTpGyVLvBEVoFwQ3_PRim14CnHtXLgX9V4xwMtxD7V0/rs:fit:560:320:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8xLzFiL1N2/ZWx0ZV9Mb2dvLnN2/Zy81MTJweC1TdmVs/dGVfTG9nby5zdmcu/cG5n"
+										alt="sveltkit" style="filter: grayscale(100%) invert(100%);">
+									<img src="https://imgs.search.brave.com/0aS2daC2xLw0C0cY_DuInFG7GmBNs0ItZv-TWfjuiMY/rs:fit:560:320:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8zLzM2L01l/dGFNYXNrX0ZveC5z/dmcvNTEycHgtTWV0/YU1hc2tfRm94LnN2/Zy5wbmc"
+										alt="metamask" style="filter: grayscale(100%) invert(100%);">
+									<img src="github-mark/vercel.svg" alt="vercel" style="filter: invert(100%);">
+									<img src="github-mark/node-js.svg" alt="node-js" style="filter: invert(100%);">
+
+								</div>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+
+		</section>
+		
+		<section id="skills">
+			<h2>SKILLS</h2>
+			<ul>
+				<li style="font-family: 'Press Start 2P', cursive;font-size: 1.2em;">Blockchain dev
+					<ul>
+						<li>Solidity</li>
+						<li>HardHat</li>
+						<li>Remix IDE</li>
+						<li>IPFS</li>
+					</ul>
+				</li>
+				<br>
+				<li style="font-family: 'Press Start 2P', cursive;font-size: 1.2em;">Auditing
+					<ul>
+						<li>Fundry</li>
+						<li>Slither</li>
+						<li>HardHat</li>
+					</ul>
+				</li>
+				<br>
+				<li style="font-family: 'Press Start 2P', cursive;font-size: 1.2em;">Web dev
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>React</li>
+						<li>Next.js</li>
+						<li>Ethers.js</li>
+						<li>Web3.js</li>
+					</ul>
+				</li>
+				<br>
+				<li style="font-family: 'Press Start 2P', cursive;font-size: 1.2em;">Tools
+					<ul>
+						<li>Node.js</li>
+						<li>Docker</li>
+						<li>Ubuntu</li>
+						<li>Git</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		
+		
+	</main>
+	<footer>
+		<nav class="link-tree">
+			<h2>CONTACT</h2>
+			<ul style="display: inline-block;">
+				<li>
+					<a href="https://github.com/gituser6hij" target="_blank">
+						<img src="http://web3.auditutils.com/github-mark/github-mark-white.svg" alt="GitHub">
+						gituser6hij
+					</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/0xuser137" target="_blank">
+						<img src="http://web3.auditutils.com/github-mark/twitter-black.svg" alt="Twitter">
+						@0xuser137
+					</a>
+				</li>
+				<li>
+				<li>
+					<a href="https://www.linkedin.com/in/staiph-v-7432a924a/" target="_blank">
+						<img src="http://web3.auditutils.com/github-mark/linkedin-white.svg" alt="Twitter">
+						staiph-v
+					</a>
+				</li>
+				<li>
+					<a href="mailto:user137@protonmail.com">
+						<img src="http://web3.auditutils.com/github-mark/protonmail.svg" alt="Email">
+						user137@pm.me
+					</a>
+				</li>
+				
+				
+			</ul>
+			
+			
+			
+		</nav>
+		<a style="font-size: 1.5em;
+		color: white;
+		text-decoration: none;
+		padding: 9px;
+		border-radius: 15px;
+		border: 0px solid rgba(10, 202, 166, 0.9);
+		transition: all 0.2s ease-in-out;
+		/* add transition effect */
+		display: inline-block;
+		width: auto;margin-top: 300px;
+		justify-content: right;" href="https://1980s-btc-price-ffiiiv.vercel.app/" target="_self">
+			<img src="github-mark/Fa6BrandsBitcoin.svg" alt="BTC">
+		</a>
+	</footer>
+</body>
+
+</html>
